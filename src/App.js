@@ -1,14 +1,20 @@
 import './App.css';
+import React from 'react';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> 
-        <h1>Wayratel Empresas</h1> 
-        <p>Bienvenido a la plataforma de Wayratel. ¡Estamos aquí para ayudarte a crecer!</p> 
-        <p>Como estas mi gente de google</p>
-        <button className="App-button">Comenzar</button> 
-      </header>
+      
+      <Header /> 
+
+      <div> 
+        <h1>Bienvenido a Wayratel</h1>
+       <p>¡Estamos aquí para ayudarte a crecer!</p> 
+       
+      </div> 
+       
+      
     </div>
     
   );
