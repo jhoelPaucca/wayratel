@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src="./inicio.png" alt="" />
+        <img src="/path/to/your/logo.png" alt="Logo" />
       </div>
       <div className="footer-links">
-        <a href="#nosotros">Nosotros</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#about">Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
       </div>
       <div className="footer-button">
         <button>Contacto</button>

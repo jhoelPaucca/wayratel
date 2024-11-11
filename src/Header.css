@@ -1,56 +1,31 @@
 /* Header.css */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #634a85;
-    color: white;
-    padding: 10px 20px;
-  }
-  
-  .logo img {
-    width: 50px;
-  }
-  
-  .nav {
-    display: flex;
-  }
-  
-  .nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav li {
-    margin-right: 20px;
-  }
-  
-  .nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  .nav a:hover {
-    color: #bb86fc;
-  }
-/* Header.css  responsive falta Actulizar veta ------------------------------------------------------------------------------------------------------*/
-@media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .nav ul {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .nav li {
-      margin-right: 0;
-    }
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0078D7; /* Color principal */
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #FFD700; /* Color del hover */
+}
   
