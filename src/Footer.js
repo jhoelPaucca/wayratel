@@ -8,12 +8,12 @@ const Footer = () => {
         <img src="/src/inicio.png" alt="Logo" />
       </div>
       <div className="footer-links">
-        <a href="#about">Nosotros</a>
-        <a href="#services">Servicios</a>
-        <a href="#contact">Contacto</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
       </div>
       <div className="footer-button">
-        <button>Contacto</button>
+        <button>WhatsApp</button>
       </div>
     </footer>
   );

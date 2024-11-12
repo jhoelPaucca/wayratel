@@ -9,10 +9,12 @@ const Header = () => {
       </div>
       <nav className="nav">
         <ul>
-          <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Nosotros</a></li>
           <li><a href="#services">Servicios</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          <div className="footer-button">
+            <button href="#contacto">Contacto</button>
+          </div>
+          
         </ul>
       </nav>
     </header>
