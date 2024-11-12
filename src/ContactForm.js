@@ -8,7 +8,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar el envío del formulario, envio de datos datos a un servidor 
+    // Aquí puedes manejar el envío del formulario, envio de datos datos a un servidor  
     console.log({ name, email, message });
   };
 
